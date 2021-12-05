@@ -1,0 +1,737 @@
+p,
+small,
+b,
+nav,
+a {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.pageone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  background-color: #5b2aee;
+  background-position: top;
+}
+
+.pageone .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+}
+
+.pageone .header .logoandname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.pageone .header .logoandname img {
+  max-height: 125px;
+}
+
+.pageone .header .logoandname p {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.pageone .header .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pagethree a {
+  color: gray;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.pagethree a:hover {
+  color: black;
+  transition: 0.5s;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.pageone .header .navbar ul a {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: relative;
+  text-decoration: none;
+}
+
+.pageone .header .navbar ul a::before {
+  content: "";
+  bottom: -5px;
+  height: 3px;
+  width: 0px;
+  background-color: #edc94a;
+  position: absolute;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.pageone .header .navbar ul a:hover::before {
+  width: 100%;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.pageone .header .navbar ul button {
+  width: 175px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 15px;
+  color: #572bd9;
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
+}
+
+.pageone .header .navbar ul button:hover {
+  color: white;
+  background-color: #572bd9;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.pageone .header .btn-group {
+  display: none;
+}
+
+.pageone .header .btn-group i {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.pageone .header .btn-group ul button {
+  width: 175px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 15px;
+  color: #572bd9;
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  text-decoration: none;
+  text-align: center;
+  background-color: #572bd9;
+}
+
+.pageone .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  gap: 15px;
+}
+
+.pageone .first p {
+  text-align: center;
+}
+
+.pageone .first p:first-child {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
+}
+
+.pageone .first p:nth-child(2) {
+  color: white;
+}
+
+.pageone .first .courselinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1000px !important;
+  margin: 20px 0;
+}
+
+.pageone .first .courselinks .course {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pageone .first .courselinks .course .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.pageone .first .courselinks .course img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 0 !important;
+}
+
+.pageone .first .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+.pageone .first .buttons a {
+  width: 175px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 15px;
+  color: #572bd9;
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  text-decoration: none;
+  text-align: center;
+  background-color: #572bd9;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.pageone .first .buttons a:hover {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  background-color: white;
+  color: #572bd9;
+}
+
+.pageone .first img {
+  margin-top: 50px;
+}
+
+.pageone .first .logos img {
+  max-height: 200px;
+  max-width: 300px;
+  opacity: 0.3;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+.pageone .first .logos img:hover {
+  opacity: 1;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.pagetwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("Mask Group 56.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  height: 700px;
+}
+
+.pagetwo .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+
+.pagetwo .first * {
+  text-align: center;
+}
+
+.pagetwo .first p:first-child {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
+}
+
+.pagetwo .first p:nth-child(2) {
+  color: white;
+  width: 700px;
+}
+
+.pagetwo .first button {
+  width: 175px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 15px;
+  color: #572bd9;
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ffdd33;
+}
+
+.pagetwo .first button:hover {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  background-color: white;
+  color: #ffdd33;
+}
+
+.pagethree .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 1600px !important;
+  padding: 50px 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.pagethree .first .textandbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagethree .first .textandbutton p:first-child {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: black;
+}
+
+.pagethree .first .textandbutton p:nth-child(2) {
+  color: gray;
+  width: 500px;
+}
+
+
+.pagethree .first .textandbutton button {
+  width: 175px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 15px;
+  color: #572bd9;
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  text-decoration: none;
+  text-align: center;
+  background-color: #572bd9;
+}
+
+.pagethree .first .textandbutton button:hover {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  background-color: white;
+  color: #572bd9;
+}
+
+.pagefour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.pagefour .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 1600px !important;
+  padding: 50px 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.pagefour .first .textandbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagefour .first .textandbutton .bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: black;
+}
+
+.pagefour .first .textandbutton .text {
+  position: relative;
+}
+
+.pagefour .first .textandbutton .text p {
+  color: gray;
+  width: 500px;
+}
+
+.pagefour .first .textandbutton .text img {
+  position: absolute;
+  top: 0;
+  left: -65px;
+}
+
+.pagefour .first .textandbutton button {
+  width: 175px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 15px;
+  color: #572bd9;
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  text-decoration: none;
+  text-align: center;
+  background-color: #572bd9;
+}
+
+.pagefour .first .textandbutton button:hover {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  background-color: white;
+  color: #572bd9;
+}
+
+.pagefive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("Mask Group 57.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 50px 0;
+  height: 700px;
+}
+
+.pagefive .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+
+.pagefive .first * {
+  text-align: center;
+}
+
+.pagefive .first p:first-child {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
+}
+
+.pagefive .first p:nth-child(2) {
+  color: white;
+  width: 700px;
+}
+
+.pagefive .first button {
+  width: 175px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 15px;
+  color: #572bd9;
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ffdd33;
+}
+
+.pagefive .first button:hover {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  background-color: white;
+  color: #ffdd33;
+}
+
+@media only screen and (max-width: 1500px) {
+  .pagethree .first img,
+  .pagefour .first img {
+    max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar {
+    display: none !important;
+  }
+  .btn-group {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+  .cards.mobile {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .cards.pc {
+    display: none !important;
+  }
+  .pagethree .first,
+  .pagefour .first {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .pageone {
+    background-size: cover;
+    background-repeat: unset;
+  }
+  .header .logoandname p {
+    display: none;
+  }
+  .pagethree .first img,
+  .pagefour .first img {
+    max-height: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pagefive .first * {
+    max-width: 350px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .first p {
+    width: 250px;
+  }
+  .first img {
+    max-width: 350px;
+  }
+  .first .buttons {
+    gap: 0px;
+  }
+  .pagefour .first .textandbutton {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .pagefour .first .textandbutton .text img {
+    display: none;
+  }
+  .pagefour .first * {
+    max-width: 300px;
+  }
+  .pagefour .first .bold {
+    text-align: center;
+  }
+  .pagethree .first img {
+    max-width: 350px;
+  }
+  .pagethree .first .textandbutton {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .pagethree .first .textandbutton * {
+    max-width: 350px;
+    text-align: center;
+  }
+}
+footer {
+  background-color: #572bd9;
+  height: 60px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#countdown {
+  font-size: 30px;
+  transition: 0.5s;
+}
+#countdown:hover {
+  font-size: 40px;
+  color: yellow;
+  transition: 0.5s;
+  text-shadow: 1px 1px;
+}
